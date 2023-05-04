@@ -4,7 +4,7 @@ public class _01_If {
     public static void main(String[] args) {
         // 조건문 If
         // if ( 조건 )
-        //    ... 수행할 명령 ...
+        //    { ... 수행할 명령 ... }
         int hour = 15; // 오후 3시
 
         // if 문 내에서 하나의 문장을 실행할 때는 {} 생략 가능

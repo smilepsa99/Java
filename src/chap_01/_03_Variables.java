@@ -21,7 +21,7 @@ public class _03_Variables {
         System.out.println("이번 시험에 합격했을까요? " + pass);
 
         double d = 3.14123456789; // double : 정밀한 실수 자료형 가능
-        float f = 3.14123456789F; // float: 정밀한 실수 자료형 불가 (쓰려면 실수 끝에 F를 적어야 함)
+        float f = 3.14123456789F; // float: 정밀한 실수 자료형 불가 (쓰려면 실수 끝에 F 또는 f를 적어야 함)
         System.out.println(d); // 3.14123456789
         System.out.println(f); // 3.1412346 (double 에 비해 소수점 뒷자리를 다 못보여줌)
 

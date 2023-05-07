@@ -18,6 +18,7 @@ public class _02_ArrayLoop {
         System.out.println("주세요");
 
         // enhanced for (for-each) 반복문 : 배열(Array)이나 리스트(List)를 순회할 때 주로 사용
+        // for (변수 : 배열) { ... 실행할 명령 ... }
         for (String coffee : coffees) { // coffees 라는 배열에 있는 값들을 순서대로 순회하는데,
                                         // 그때그때 순회하는 값을 coffee 라는 변수에 넣어서 사용하겠다는 의미
             System.out.println(coffee + " 하나");

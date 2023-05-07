@@ -44,16 +44,16 @@ public class _03_MultiArray {
 
         // [참고] 3차원 배열
         // 3차원 배열 만들기 ① (배열 선언 & 값 넣기)
-        // String[][][] marray = new String[][][] {
+        // String[][][] arrayName = new String[][][] {
         //         { {}, {}, {} },
         //         { {}, {}, {} },
         //         { {}, {}, {} }
         // };
 
         // 3차원 배열 만들기 ② (배열 선언만 (세로 x 가로 x 높이))
-        // String[][][] marray = new String[3][3][3]; // 우변 [] 안에 세로, 가로, 높이 넣어줘서 배열의 크기 정해줌
+        // String[][][] arrayName = new String[3][3][3]; // 우변 [] 안에 세로, 가로, 높이 넣어줘서 배열의 크기 정해줌
 
         // 3차원 배열에 있는 값에 접근하려면? : 배열명[세로 index][가로 index][높이 index]
-        // System.out.println(marray[0][1][2]);
+        // System.out.println(arrayName[0][1][2]);
     }
 }

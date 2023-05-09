@@ -12,6 +12,9 @@ public class _02_String2 {
         System.out.println(s.substring(s.indexOf("Java"), s.indexOf("."))); // 시작 위치부터 끝위치 "미만"까지
                                                               // "Java" 의 위치값에서부터 "." 의 위치값 미만까지
 
+        System.out.println(s.substring(s.indexOf("and"))); // and Python and C. (첫번째 and 부터 시작)
+        System.out.println(s.substring(s.lastIndexOf("and"))); // and C. (마지막 and 부터 시작)
+
         // 공백 제거
         s = "       I love Java.      ";
         System.out.println(s);

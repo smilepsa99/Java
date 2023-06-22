@@ -33,7 +33,6 @@ public class _04_EscapeSequence {
 
         char c = 'A';
         c = '\'';
-        System.out.println(c);
-
+        System.out.println(c); // '
     }
 }

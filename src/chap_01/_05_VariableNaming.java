@@ -27,7 +27,7 @@ public class _05_VariableNaming {
 
         String item1 = "시계";
         String item2 = "가방";
-        // String 3item = "전자제훔"; (변수는 숫자로 시작불가)
+        // String 3item = "전자제품"; (변수는 숫자로 시작불가)
 
         // 프로그램의 흐름을 위해 사용되는 경우의 예시 (크게 이름이 중요하지 않을 때)
         int i = 0;

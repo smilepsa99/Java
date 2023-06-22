@@ -19,7 +19,7 @@ public class _07_DoWhile {
         // 키가 엄청나게 큰 사람이 수영을 하는 경우
         move = 0;
         height = 25; // 키 25m
-        while (move + height< distance) { // 처음 반복부터 조건이 거짓이기 때문에, 반복문 내의 명령 실행 X
+        while (move + height < distance) { // 처음 반복부터 조건이 거짓이기 때문에, 반복문 내의 명령 실행 X
             System.out.println("발차기를 계속 합니다.");
             System.out.println("현재 이동 거리 : " + move);
             move += 3; // 3m 이동

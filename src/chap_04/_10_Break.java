@@ -19,6 +19,7 @@ public class _10_Break {
 
         System.out.println("--------------------------");
 
+        // While 문
         int num = 1; // 손님 대기번호
         while (num <= 50) {
             System.out.println(num + "번 손님, 주문하신 치킨 나왔습니다.");

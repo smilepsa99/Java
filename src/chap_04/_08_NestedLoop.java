@@ -2,7 +2,7 @@ package chap_04;
 
 public class _08_NestedLoop {
     public static void main(String[] args) {
-        // 이중 반복문
+        // 이중 반복문 (Nested Loop) (* nest : (큰 단위의 정보 속에 작은 단위의 정보를) 끼워 넣다)
 
         // 별 (*) 사각형 만들기
         // *****
@@ -80,7 +80,8 @@ public class _08_NestedLoop {
         // }
 
         // [추가] 어쩌다가 만든 내 답
-        // 참고한 코드 출처 : https://www.delftstack.com/ko/howto/java/multiply-strings-java/
+        // 참고한 코드 출처1 : https://www.delftstack.com/ko/howto/java/multiply-strings-java/
+        // 참고한 코드 출처2 : https://adjh54.tistory.com/134
         // for(int i = 1; i < 6; i++) {
         //     String str = new String(new char[i]).replace("\0", "*");
         //     System.out.println(String.format("%5s", str));

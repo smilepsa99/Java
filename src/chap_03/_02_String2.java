@@ -18,7 +18,7 @@ public class _02_String2 {
         // 공백 제거
         s = "       I love Java.      ";
         System.out.println(s);
-        System.out.println(s.trim()); // 앞뒤 공백 제거
+        System.out.println(s.trim()); // 앞뒤 공백 제거 (*trim : 다듬다, 손질하다)
 
         // 문자열 결합
         String s1 = "Java";

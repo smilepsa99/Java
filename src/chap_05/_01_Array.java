@@ -17,6 +17,7 @@ public class _01_Array {
         System.out.println("주세요");
 
         // 배열 선언 1번째 방법
+        // 자료형[] 배열이름 = new 자료형[개수];
         // String[] coffees = new String[4];
         // 크기 4개에 해당하는 String 배열을 만드는데, 이름은 coffees 로 선언해라
 

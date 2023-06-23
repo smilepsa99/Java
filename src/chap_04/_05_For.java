@@ -63,5 +63,8 @@ public class _05_For {
             System.out.println("현재까지 총합은 " + sum + "입니다.");
         }
         System.out.println("1부터 10까지의 모든 수의 총합은 " + sum + "입니다.");
+
+        // enhanced for (for-each) 반복문 : 배열(Array)이나 리스트(List)를 순회할 때 주로 사용
+        // for (변수 : 배열) { ... 실행할 명령 ... }
     }
 }

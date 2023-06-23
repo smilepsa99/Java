@@ -3,6 +3,7 @@ package chap_06;
 public class _08_MainMethod {
     public static void main(String[] args) {
         // 메인 메소드 : 문자열을 여러개 가진 String 배열 (String[] args)을, 전달값으로 받는 메서드
+        //             ㄴ args 라는 이름을 가진 String 배열 (* args = arguments, 인수)
 
         // 메뉴 Run -> Edit Configurations 에서 문자열 배열 args 에 인수를 넣어줄 수 있음
         // 1. + 눌러서 Application 생성

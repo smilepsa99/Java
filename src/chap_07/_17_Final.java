@@ -25,5 +25,12 @@ public class _17_Final {
         SlowActionCam slowActionCam = new SlowActionCam();
         slowActionCam.makeVideo();
 
+
+        // ( + private 은 접근범위를 클래스 내로 한정시키는 거고,
+        //       final 은 접근범위와 별개로 값의 변경이 불가능해야 할 때 사용 )
+
+        // System.out.println(actionCam.a); // 오류
+        System.out.println(actionCam.b);    // 정상
+        // actionCam.b = "값 변경";          // 오류
     }
 }

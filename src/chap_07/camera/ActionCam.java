@@ -1,6 +1,8 @@
 package chap_07.camera;
 
 public final class ActionCam extends Camera { // 클래스에 final 을 붙이면, 이 클래스를 아예 상속할 수 없게 됨
+    private String a = "private 테스트";
+    public final String b = "final 테스트";
     public final String lens; // = "광각렌즈"; // lens 의 값을 정해진 값으로 고정시키고 싶을 때, final 을 사용하면 됨
     public ActionCam() {
         super("액션 카메라");

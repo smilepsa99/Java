@@ -51,7 +51,9 @@ public class _02_Interface {
 
         // [참고] 추상 클래스와 인터페이스의 차이 https://brunch.co.kr/@kd4/6
         // [참고] 자바 추상 클래스와 인터페이스의 차이점 이해하기 https://wildeveloperetrain.tistory.com/112
+
         // [참고] 추상클래스 VS 인터페이스 왜 사용할까?  https://myjamong.tistory.com/150
-        //       ㄴ 추상클래스(미완성 설계도) / 인터페이스(기본 설계도)
+        // [참고] 인터페이스란? http://www.tcpschool.com/java/java_polymorphism_interface
+        //                   ㄴ https://mozi.tistory.com/546
     }
 }

@@ -32,8 +32,8 @@ public class _03_Lambda {
     // public int add(int x, int y) {
     //     return x + y;
     // }
-    // +) 일반코드에선 내용이 한 줄이어도, return 이 포함될 경우 {} 생략 불가능
 
     // 람다식 코드 (전달값 o, 반환값 o)
     // (x, y) -> x + y
+    // +) 내용이 한 줄이어도, return 이 포함될 경우 {} 생략 불가능 : (x, y) -> { return x + y; };
 }
